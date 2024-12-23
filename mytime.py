@@ -26,3 +26,5 @@ def TimeStampToString(timestamp):
 def GetNowTimeFileName():
     return datetime.now(tz=tz_utc_8).strftime('%Y/%m/%d.log')
     
+
+
